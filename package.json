@@ -1,8 +1,26 @@
 {
+  "name": "ai-knowledge-agent",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://engineernoob.github.io/ai-knowledge-agent",
   "dependencies": {
-    "react-icons": "^5.2.1"
+    "@chakra-ui/react": "^1.6.5",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "framer-motion": "^4.1.17",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.0.2",
+    "typescript": "^4.3.5"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
